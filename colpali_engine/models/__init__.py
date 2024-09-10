@@ -3,9 +3,9 @@ from .paligemma import (
     BiPali,
     BiPaliProj,
     ColPali,
-    ColPaliProcessor,
     ColPali2,
-    ColPali2Processor,
-    ColPali2ModelOutput,
     ColPali2Config,
+    ColPali2ModelOutput,
+    ColPali2Processor,
+    ColPaliProcessor,
 )
