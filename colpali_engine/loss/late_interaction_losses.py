@@ -27,6 +27,7 @@ class ColbertCELoss(BaseColbertLoss):
         Returns:
         - torch.Tensor (1,)
         """
+
         if query_embeddings.shape[0] != doc_embeddings.shape[0]:
             raise ValueError("Batch size mismatch between query and document embeddings.")
 
